@@ -1,4 +1,4 @@
-"""R1 - Visualização de vagas: lista as vagas e mostra disponíveis e indisponíveis. Utilizado IA para gerar o codigo"""
+"""R1 - Visualização de vagas: lista as vagas e mostra disponíveis e indisponíveis."""
 
 
 def listar_vagas(vagas):
@@ -12,7 +12,7 @@ def listar_vagas(vagas):
     indisponiveis = sum(1 for v in vagas if v["ocupada"])
     return {"total": total, "disponiveis": total - indisponiveis, "indisponiveis": indisponiveis}
 
-
+#Implementada por IA
 def executar(vagas):
     resumo = listar_vagas(vagas)
     print(f"\nTotal: {resumo['total']} | Disponíveis: {resumo['disponiveis']} "
