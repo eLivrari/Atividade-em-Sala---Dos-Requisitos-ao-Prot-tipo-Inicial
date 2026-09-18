@@ -13,7 +13,7 @@ PERMISSOES = {
     "pcd": {"comum", "deficiente"},
 }
 
-
+# Utilizado IA para gerar as funções de implementação
 def listar_vagas_reservadas(vagas):
     """Imprime as vagas reservadas com rótulo próprio (nunca como vaga comum)."""
     reservadas = [v for v in vagas if v["tipo"] != "comum"]
