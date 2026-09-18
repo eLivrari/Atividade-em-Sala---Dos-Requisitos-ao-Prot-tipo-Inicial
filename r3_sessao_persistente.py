@@ -6,7 +6,7 @@ import time
 ARQUIVO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sessao.json")
 VALIDADE_DIAS = 30
 
-
+#Utilizado IA para geração das funçôes
 def fazer_login(email, agora=None):
     """Registra a sessão do aluno (simula o login, sem senha)."""
     if "@" not in email:
