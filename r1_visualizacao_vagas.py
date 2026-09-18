@@ -1,4 +1,4 @@
-"""R1 - Visualização de vagas: lista as vagas e mostra disponíveis e indisponíveis."""
+"""R1 - Visualização de vagas: lista as vagas e mostra disponíveis e indisponíveis. Utilizado IA para gerar o codigo"""
 
 
 def listar_vagas(vagas):
